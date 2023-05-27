@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="flykk_background">#FFFFFF</color>
+
+    <color name="flykk_field_label">#3D4A5C</color>
+    <color name="flykk_secondary_text">#3D4A5C</color>
+    <color name="flykk_text_field_placeholder">#AFBACA</color>
+    <color name="flykk_text_field">#5E718D</color>
+
+    <color name="flykk_primary_screen_title">#820BF4</color>
+    <color name="password_rules">#222C3F</color>
+
+<!--    TextField Borders-->
+    <color name="flykk_text_field_border_error">#FFA19B</color>
+    <color name="flykk_text_field_border">#AFBACA</color>
+    <color name="flykk_text_field_focus_border">#CFA1FB</color>
+
+<!--    Buttons -->
+    <color name="flykk_primary_button">#820BF4</color>
+    <color name="flykk_primary_button_disabled">#CFA1FB</color>
+    <color name="flykk_primary_button_text">#FFFFFF</color>
+    <color name="flykk_secondary_button">#FFFFFF</color>
+    <color name="flykk_secondary_button_text">#820BF4</color>
+
+
+<!--    Error -->
+    <color name="flykk_error">#E92215</color>
+    <color name="flykk_background_error">#FFF5F4</color>
+
+
+</resources>
