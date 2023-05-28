@@ -117,6 +117,7 @@ fun FlykkInputTextWithImage(labelTitle: String,
 
 
 
+
 // TODO: erase the white space outside of the border.
 
 private fun getImageResource(hasError: Boolean): Int {

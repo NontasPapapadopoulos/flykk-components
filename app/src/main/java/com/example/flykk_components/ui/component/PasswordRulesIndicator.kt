@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.sp
 import com.isignthis.flykkk.R
 
 @Composable
-fun PasswordRulesIndicator(isRuleFulfilled: Boolean, ruleDescription: String) {
+fun PasswordRuleIndicator(isRuleFulfilled: Boolean, ruleDescription: String) {
     var imageId: Int = getImageResource(isRuleFulfilled)
 
     Row (
@@ -56,8 +56,8 @@ private fun getImageResource(isRuleFulfilled: Boolean): Int {
 @Composable
 fun PasswordRulesIndicatorPreview() {
     Column() {
-        PasswordRulesIndicator(false, "Minimum 6 characters")
-        PasswordRulesIndicator(true, "Minimum 6 characters")
+        PasswordRuleIndicator(false, "Minimum 6 characters")
+        PasswordRuleIndicator(true, "Minimum 6 characters")
     }
 
 }

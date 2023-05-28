@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.flykk_components.ui.component.PasswordRulesIndicator
+import com.example.flykk_components.ui.component.PasswordRuleIndicator
 import com.isignthis.flykkk.R
 
 
@@ -22,19 +22,19 @@ fun PasswordRulesContainer(password: String, modifier: Modifier ) {
         modifier = modifier.background(color = colorResource(id = R.color.flykk_background))
 
             ) {
-        PasswordRulesIndicator(isRuleFulfilled = hasSixCharacters(password) , ruleDescription = "Minimum 6 characters" )
+        PasswordRuleIndicator(isRuleFulfilled = hasSixCharacters(password) , ruleDescription = "Minimum 6 characters" )
         Spacer(modifier = Modifier.height(8.dp))
 
-        PasswordRulesIndicator(isRuleFulfilled = hasUppercaseLetter(password) , ruleDescription = "Minimum 1 UPPER CASE letter" )
+        PasswordRuleIndicator(isRuleFulfilled = hasUppercaseLetter(password) , ruleDescription = "Minimum 1 UPPER CASE letter" )
         Spacer(modifier = Modifier.height(8.dp))
 
-        PasswordRulesIndicator(isRuleFulfilled = hasLowercaseLetter(password) , ruleDescription = "Minimum 1 lower case letter" )
+        PasswordRuleIndicator(isRuleFulfilled = hasLowercaseLetter(password) , ruleDescription = "Minimum 1 lower case letter" )
         Spacer(modifier = Modifier.height(8.dp))
 
-        PasswordRulesIndicator(isRuleFulfilled = hasDigit(password) , ruleDescription = "Minimum 1 number 0-9" )
+        PasswordRuleIndicator(isRuleFulfilled = hasDigit(password) , ruleDescription = "Minimum 1 number 0-9" )
         Spacer(modifier = Modifier.height(8.dp))
 
-        PasswordRulesIndicator(isRuleFulfilled = hasSpecialCharacter(password) , ruleDescription = "Minimum 1 symbol ~!@#\$%^&*()_+-={}[]:;”’<>,.?/|\\" )
+        PasswordRuleIndicator(isRuleFulfilled = hasSpecialCharacter(password) , ruleDescription = "Minimum 1 symbol ~!@#\$%^&*()_+-={}[]:;”’<>,.?/|\\" )
         Spacer(modifier = Modifier.height(8.dp))
 
     }
